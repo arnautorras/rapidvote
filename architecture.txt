@@ -1,0 +1,31 @@
+@startuml
+
+[React]
+
+cloud {
+    [Poll API]
+    [Auth API]
+}
+
+database "MongoDB" {
+    frame "Polls" {
+        [PollDocument]
+    }
+
+    frame "Users" {
+        [UserDocument]
+    }
+
+    frame "Votes" {
+        [VoteDocument]
+    }
+}
+
+[React] <--> [Poll API] : HTTP
+[React] <--> [Auth API] : HTTP
+
+[Poll API] <--> [PollDocument]
+[Poll API] <--> [VoteDocument]
+[Auth API] <--> [UserDocument]
+
+@enduml

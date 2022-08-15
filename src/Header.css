@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+#rapLogo {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logoImage {
+    margin-right: 5px;
+}

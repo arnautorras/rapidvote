@@ -1,0 +1,22 @@
+#outer {
+    justify-content: center;
+}
+
+#inner {
+    width: 35rem;
+    top: 50%;
+}
+
+#registerTitle {
+    text-align: center;
+}
+
+#notification {
+    position: relative;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#loginText {
+    margin-bottom: 5px;
+}

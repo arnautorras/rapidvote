@@ -1,0 +1,39 @@
+#outer {
+    justify-content: center;
+}
+
+#inner {
+    width: 35rem;
+    top: 50%;
+}
+
+#notification {
+    position: relative;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#loginTitle {
+    text-align: center;
+}
+
+#registerButton {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#redirectOptions {
+    margin-top: 20px;
+}
+
+#registerText {
+    margin-bottom: 5px;
+}
+
+#logo {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,15 @@
+#resultCardWrapper {
+    width: 75%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#pollDetails {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+#downloadButton {
+    margin-top: 2rem;
+}

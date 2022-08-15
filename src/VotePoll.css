@@ -1,0 +1,12 @@
+#pollCardWrapper {
+    width: 50%;
+    margin-top: 2rem;
+}
+
+#closePollDiv {
+    margin-top: 10px;
+}
+
+.optionButton {
+    margin-bottom: 0.5rem;
+}
